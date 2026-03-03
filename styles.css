@@ -1,6 +1,55 @@
-body{
-  padding: 25px;
+body {
+  background-color: black;
+  text-align: center;
+  padding-top:12px;
 }
+.search {
+  padding: 5px 5px;
+  background-color: black;
+  color: white;
+  border-radius:12px 12px;
+  border: 1px solid white;
+} 
+.search:hover {
+  background-color: #302F2F ;
+} 
+.search:active {
+    transform: scale(0.9);
+}
+#wordinput { 
+ background-color:black;
+ color:white;
+ border-radius:5px 5px;
+ border:2px solid grey;
+ padding:5px 5px;
+}
+
 .title {
-	color: #5C6AC4;
+  color: white;
+  font-family: Arial;
+}
+#output {
+  color: white;
+  font-family: Arial;
+}
+#copyright {
+  left: 40%;
+  position:fixed;
+  text-align: center;
+  bottom: 10px;
+  font-family:Arial;
+  color: white;
+  font-size: 12px
+}
+#gotolomos {
+  left: 45%;
+  position:fixed;
+  text-align: center;
+  bottom: 50px;
+  background-color:black;
+  color:white;
+  padding: 12px 12px;
+  border-radius:12px 12px;
+  border:2px solid grey;
+
 }
